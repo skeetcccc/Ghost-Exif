@@ -1,0 +1,22 @@
+=====================================================
+  Ghost-Exif: Step-by-Step Dependency Installation
+=====================================================
+
+Follow these terminal commands in exact order to install all required dependencies:
+
+1. Upgrade Python package manager (pip):
+   pip install --upgrade pip
+
+2. Install Pillow (Core image processing library):
+   pip install Pillow
+
+3. Install piexif (EXIF metadata reader and writer):
+   pip install piexif
+
+4. Install rich (Terminal UI, ASCII banners, and progress bars):
+   pip install rich
+
+-----------------------------------------------------
+Alternative (Single Command Installation):
+-----------------------------------------------------
+   pip install -r requirements.txt
